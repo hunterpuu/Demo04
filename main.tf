@@ -1,6 +1,6 @@
 provider "vsphere" {
-  user           = "var.VSPHERE_USER"
-  password       = "var.VSPHERE_PASS"
+  user           = var.VSPHERE_USER
+  password       = var.VSPHERE_PASS
   vsphere_server = "vc01.home.local"
 
   # If you have a self-signed cert
